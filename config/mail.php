@@ -1,5 +1,16 @@
 <?php
 
+$appHost = parse_url(env('APP_URL', ''), PHP_URL_HOST)
+    ?: (isset($_SERVER['HTTP_HOST']) ? preg_replace('/:\d+$/', '', $_SERVER['HTTP_HOST']) : null);
+
+if ($appHost && str_starts_with($appHost, 'www.')) {
+    $appHost = substr($appHost, 4);
+}
+
+$defaultFromAddress = ($appHost && !in_array($appHost, ['localhost', '127.0.0.1']))
+    ? 'no-reply@' . $appHost
+    : 'no-reply@yespais.com';
+
 return [
 
     'default' => env('MAIL_MAILER', 'smtp'),
@@ -75,8 +86,8 @@ return [
     ],
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'anfaskaloor@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Admission System'),
+        'address' => env('MAIL_FROM_ADDRESS') ?: $defaultFromAddress,
+        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Admission System')),
     ],
 
     'markdown' => [

@@ -170,15 +170,20 @@ SESSION_LIFETIME=120
 SESSION_ENCRYPT=false
 SESSION_DOMAIN=null
 
-# Hostinger SMTP Email Configuration
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.hostinger.com
-MAIL_PORT=465
-MAIL_USERNAME=admissions@yourdomain.com
-MAIL_PASSWORD=YourEmailPasswordHere
-MAIL_ENCRYPTION=ssl
-MAIL_FROM_ADDRESS="admissions@yourdomain.com"
+# Hostinger Server Mailer (Recommended - Sends directly via host server without needing a registered no-reply mailbox)
+MAIL_MAILER=sendmail
+MAIL_SENDMAIL_PATH="/usr/sbin/sendmail -bs -i"
+# Automatically resolves to no-reply@<domain> dynamically based on your APP_URL, or specify directly:
+MAIL_FROM_ADDRESS="no-reply@yourdomain.com"
 MAIL_FROM_NAME="${APP_NAME}"
+
+# Optional Hostinger SMTP (Requires a registered mailbox or email forwarder in hPanel)
+# MAIL_MAILER=smtp
+# MAIL_HOST=smtp.hostinger.com
+# MAIL_PORT=465
+# MAIL_USERNAME=admin@yespais.com
+# MAIL_PASSWORD=YourEmailPasswordHere
+# MAIL_ENCRYPTION=ssl
 
 # Institute & Alerts
 ADMIN_ALERT_EMAIL="admissions@yourdomain.com"
