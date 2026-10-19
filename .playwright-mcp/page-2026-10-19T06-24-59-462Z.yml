@@ -1,0 +1,216 @@
+- generic [active] [ref=f16e1]:
+  - navigation [ref=f16e2]:
+    - generic [ref=f16e3]:
+      - link "School Logo YES NATIONAL PUBLIC SCHOOL" [ref=f16e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "School Logo" [ref=f16e5]
+        - generic [ref=f16e6]: YES NATIONAL PUBLIC SCHOOL
+      - list [ref=f16e9]:
+        - listitem [ref=f16e10]:
+          - link "Home" [ref=f16e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=f16e12]:
+          - link "Apply Now" [ref=f16e13] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admission/select-form
+  - main [ref=f16e14]:
+    - main [ref=f16e16]:
+      - generic [ref=f16e20]:
+        - generic [ref=f16e21]:
+          - generic [ref=f16e22]: Admissions Open • Session 2026-2027
+          - heading "Nurturing Bright Minds & Future Leaders" [level=1] [ref=f16e25]
+          - paragraph [ref=f16e26]: Welcome to YES NATIONAL PUBLIC SCHOOL. We offer a progressive, value-driven K-12 educational journey fostering critical thinking, creative innovation, and character development.
+          - generic [ref=f16e27]:
+            - link "Apply for Admission" [ref=f16e28] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+            - link "Campus Life" [ref=f16e32] [cursor=pointer]:
+              - /url: "#about-institution"
+          - generic [ref=f16e36]:
+            - generic [ref=f16e42]:
+              - generic [ref=f16e43]: 15+ Years
+              - text: Excellence
+            - generic [ref=f16e49]:
+              - generic [ref=f16e50]: Smart Campus
+              - text: Interactive Labs
+            - generic [ref=f16e56]:
+              - generic [ref=f16e57]: K-12 Spectrum
+              - text: Nursery to 12th
+        - generic [ref=f16e58]:
+          - img "Student in Uniform" [ref=f16e60]
+          - generic [ref=f16e65]:
+            - generic [ref=f16e66]: 100% Online Application
+            - text: Instant PDF Generation
+          - generic [ref=f16e71]:
+            - generic [ref=f16e72]: Holistic Pedagogy
+            - text: YES India Foundation
+      - generic [ref=f16e75]:
+        - generic [ref=f16e81]:
+          - heading "Cognitive Growth" [level=6] [ref=f16e82]
+          - text: Experiential learning
+        - generic [ref=f16e88]:
+          - heading "Sports & Fitness" [level=6] [ref=f16e89]
+          - text: Structured athletics
+        - generic [ref=f16e95]:
+          - heading "Expert Educators" [level=6] [ref=f16e96]
+          - text: Dedicated mentorship
+        - generic [ref=f16e102]:
+          - heading "Safe Campus" [level=6] [ref=f16e103]
+          - text: Nurturing environment
+      - generic [ref=f16e105]:
+        - generic [ref=f16e106]:
+          - generic [ref=f16e107]: ADMISSIONS PORTAL • 2026-2027
+          - heading "Select An Admission Program" [level=2] [ref=f16e108]
+          - paragraph [ref=f16e109]: Choose the designated stage for your child's age and class to begin the fast, paperless application.
+        - generic [ref=f16e110]:
+          - generic [ref=f16e112]:
+            - generic [ref=f16e114]:
+              - generic [ref=f16e115]:
+                - generic [ref=f16e116]: PRE-PRIMARY
+                - generic [ref=f16e117]: Live
+              - generic [ref=f16e124]:
+                - heading "Lower Academy" [level=4] [ref=f16e125]
+                - text: Nursery to Class 1st
+              - paragraph [ref=f16e126]: Play-way curriculum, cognitive development, foundational literacy, and child-centered interactive activities.
+              - generic [ref=f16e127]:
+                - generic [ref=f16e128]: Nursery, LKG, UKG, 1st Grade
+                - generic [ref=f16e132]: Early sensory & motor skill workshops
+                - generic [ref=f16e136]: Safe, engaging play-school setup
+            - link "Apply for Lower Academy" [ref=f16e141] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form1
+          - generic [ref=f16e146]:
+            - generic [ref=f16e148]:
+              - generic [ref=f16e149]:
+                - generic [ref=f16e150]: PRIMARY & SECONDARY
+                - generic [ref=f16e151]: Live
+              - generic [ref=f16e158]:
+                - heading "General Education" [level=4] [ref=f16e159]
+                - text: Class 2nd to Class 10th
+              - paragraph [ref=f16e160]: Holistic academic rigor, digital labs, sports training, leadership opportunities, and secondary board prep.
+              - generic [ref=f16e161]:
+                - generic [ref=f16e162]: Class 2nd through 10th Grade
+                - generic [ref=f16e166]: STEM, languages, and IT curriculum
+                - generic [ref=f16e170]: Board exam mentorship & career guidance
+            - link "Apply for General Education" [ref=f16e175] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form2
+      - generic [ref=f16e180]:
+        - generic [ref=f16e181]:
+          - heading "Simple 3-Step Online Admission" [level=4] [ref=f16e182]
+          - paragraph [ref=f16e183]: Apply in under 5 minutes from your mobile phone or computer
+        - generic [ref=f16e184]:
+          - generic [ref=f16e186]:
+            - generic [ref=f16e187]: "1"
+            - heading "Select Program" [level=6] [ref=f16e188]
+            - paragraph [ref=f16e189]: Choose between Lower Academy, General Education, or Higher Secondary.
+          - generic [ref=f16e191]:
+            - generic [ref=f16e192]: "2"
+            - heading "Fill Student Details" [level=6] [ref=f16e193]
+            - paragraph [ref=f16e194]: Provide basic demographic, guardian, and previous academic records.
+          - generic [ref=f16e196]:
+            - generic [ref=f16e197]: "3"
+            - heading "Instant Confirmation" [level=6] [ref=f16e198]
+            - paragraph [ref=f16e199]: Receive instant application number and download the official PDF copy.
+      - generic [ref=f16e202]:
+        - generic [ref=f16e203]:
+          - generic [ref=f16e204]: INSTITUTIONAL HERITAGE
+          - heading "\"YES India Makes an Excellent India\"" [level=2] [ref=f16e205]
+          - paragraph [ref=f16e206]: Established in 2007 under the visionary leadership of the YES India Foundation, our institution is committed to providing holistic, values-based education. Through a modern campus environment, expert faculty, and child-centric teaching practices, we equip young minds with the confidence, discipline, and academic excellence required to excel in tomorrow's world.
+          - generic [ref=f16e207]:
+            - generic [ref=f16e213]:
+              - heading "Interactive Classrooms" [level=6] [ref=f16e214]
+              - text: Audio-visual smart learning
+            - generic [ref=f16e220]:
+              - heading "Play-Way Preschool" [level=6] [ref=f16e221]
+              - text: Safe, vibrant kindergarten
+            - generic [ref=f16e227]:
+              - heading "Recreational Grounds" [level=6] [ref=f16e228]
+              - text: Athletics and outdoor sports
+            - generic [ref=f16e234]:
+              - heading "English-Speaking Culture" [level=6] [ref=f16e235]
+              - text: Communication fluency focus
+        - generic [ref=f16e237]:
+          - img "YES NATIONAL PUBLIC SCHOOL Campus" [ref=f16e238]
+          - generic [ref=f16e244]:
+            - generic [ref=f16e245]: YES NATIONAL PUBLIC SCHOOL
+            - text: Samote, Raza Nagar, Surankote, Poonch, Jammu & Kashmir
+      - generic [ref=f16e247]:
+        - generic [ref=f16e248]:
+          - generic [ref=f16e249]:
+            - generic [ref=f16e250]: CAMPUS EXPERIENCE
+            - heading "Life At Our School" [level=3] [ref=f16e251]
+          - paragraph [ref=f16e252]: Curating multi-dimensional student talent through arts, sciences, and athletics.
+        - generic [ref=f16e253]:
+          - generic [ref=f16e255]:
+            - img "Sports & Physical Education" [ref=f16e256]
+            - generic [ref=f16e257]: Sports & Athletics
+          - generic [ref=f16e260]:
+            - img "Science & STEM" [ref=f16e261]
+            - generic [ref=f16e262]: Science & Research
+          - generic [ref=f16e265]:
+            - img "Arts & Expression" [ref=f16e266]
+            - generic [ref=f16e267]: Creative Arts
+          - generic [ref=f16e270]:
+            - img "Student Life" [ref=f16e271]
+            - generic [ref=f16e272]: Campus Events
+  - contentinfo [ref=f16e274]:
+    - generic [ref=f16e276]:
+      - generic [ref=f16e278]:
+        - img "School Logo" [ref=f16e279]
+        - paragraph [ref=f16e280]: Revolutionizing education through innovation and character building. YES NATIONAL PUBLIC SCHOOL is proud to be part of the YES INDIA FOUNDATION, a Kerala-based academic council dedicated to excellence.
+        - generic [ref=f16e281]:
+          - link "Facebook" [ref=f16e282] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f16e285] [cursor=pointer]:
+            - /url: https://www.instagram.com/yes.huh.school?utm_source=qr&igsh=MXh0NzJrcmQzdjJ4OA==
+          - link "Twitter" [ref=f16e288] [cursor=pointer]:
+            - /url: "#"
+          - link "Youtube" [ref=f16e291] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f16e294]:
+        - heading "ADMISSIONS" [level=6] [ref=f16e295]
+        - list [ref=f16e296]:
+          - listitem [ref=f16e297]:
+            - link "Lower Academy" [ref=f16e298] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form1
+          - listitem [ref=f16e299]:
+            - link "General Education" [ref=f16e300] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form2
+          - listitem [ref=f16e301]:
+            - link "How to Apply" [ref=f16e302] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+      - generic [ref=f16e303]:
+        - heading "EXPLORE" [level=6] [ref=f16e304]
+        - list [ref=f16e305]:
+          - listitem [ref=f16e306]:
+            - link "Home" [ref=f16e307] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f16e308]:
+            - link "School Gallery" [ref=f16e309] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e310]:
+            - link "Academic Calendar" [ref=f16e311] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e312]:
+            - link "Help Center" [ref=f16e313] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e314]:
+            - link "Privacy Policy" [ref=f16e315] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f16e316]:
+        - heading "GET IN TOUCH" [level=6] [ref=f16e317]
+        - generic [ref=f16e318]:
+          - generic [ref=f16e319]: YES NATIONAL PUBLIC SCHOOL,Samote, Raza Nagar, Surankote, Poonch, Jammu & Kashmir
+          - 'link "Principal: 9797524757" [ref=f16e324] [cursor=pointer]':
+            - /url: tel:9797524757
+          - link "nationalpublicschoolmandi@gmail.com" [ref=f16e329] [cursor=pointer]:
+            - /url: mailto:nationalpublicschoolmandi@gmail.com
+        - generic [ref=f16e334]:
+          - generic [ref=f16e335]: School Office Hours
+          - paragraph [ref=f16e336]: "Monday – Saturday: 9:00 AM – 3:00 PMSunday: Closed"
+    - generic [ref=f16e339]:
+      - generic [ref=f16e341]:
+        - generic [ref=f16e342]: © 2026 YES NATIONAL PUBLIC SCHOOL. All rights reserved.
+        - generic [ref=f16e343]: "Visitors: 21"
+      - generic [ref=f16e348]:
+        - generic [ref=f16e349]: Designed & Developed by
+        - link [ref=f16e350] [cursor=pointer]:
+          - /url: https://cyberduce.com
+          - img "Cyberduce Logo" [ref=f16e351]

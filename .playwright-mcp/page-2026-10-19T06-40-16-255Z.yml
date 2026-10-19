@@ -1,0 +1,135 @@
+- generic [active] [ref=f19e1]:
+  - navigation [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - link "School Logo YASEEN ENGLISH SCHOOL" [ref=f19e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "School Logo" [ref=f19e5]
+        - generic [ref=f19e6]: YASEEN ENGLISH SCHOOL
+      - list [ref=f19e9]:
+        - listitem [ref=f19e10]:
+          - link "Home" [ref=f19e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=f19e12]:
+          - link "Apply Now" [ref=f19e13] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admission/select-form
+  - main [ref=f19e14]:
+    - generic [ref=f19e16]:
+      - navigation "breadcrumb" [ref=f19e17]:
+        - list [ref=f19e18]:
+          - listitem [ref=f19e19]:
+            - link "Home" [ref=f19e20] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f19e23]: / Online Admissions
+          - listitem [ref=f19e24]: / Select Program
+      - generic [ref=f19e25]:
+        - generic [ref=f19e26]: ONLINE ADMISSION PORTAL • SESSION 2026-2027
+        - heading "Choose Your Child's Academic Stage" [level=1] [ref=f19e29]
+        - paragraph [ref=f19e30]: Select the program corresponding to the class your child is applying for to begin the fast, paperless registration.
+        - generic [ref=f19e32]:
+          - generic [ref=f19e33]:
+            - generic [ref=f19e34]: "1"
+            - generic [ref=f19e35]: Select Program
+          - generic [ref=f19e37]:
+            - generic [ref=f19e38]: "2"
+            - generic [ref=f19e39]: Student Details
+          - generic [ref=f19e41]:
+            - generic [ref=f19e42]: "3"
+            - generic [ref=f19e43]: PDF Receipt
+      - generic [ref=f19e46]:
+        - heading "Admissions Are Currently Closed" [level=4] [ref=f19e50]
+        - paragraph [ref=f19e51]: Online admission applications for academic session 2026-2027 are currently closed. Please contact our administrative office for assistance and notifications on subsequent registration windows.
+        - generic [ref=f19e52]:
+          - link "Back to Home" [ref=f19e53] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+          - link "Call Admissions Desk" [ref=f19e56] [cursor=pointer]:
+            - /url: tel:9797524757
+      - generic [ref=f19e59]:
+        - generic [ref=f19e61]:
+          - generic [ref=f19e66]:
+            - heading "What You'll Need For Registration" [level=6] [ref=f19e67]
+            - text: Keep these records handy to complete the application in under 5 minutes
+          - generic [ref=f19e68]:
+            - generic [ref=f19e73]:
+              - generic [ref=f19e74]: Passport Photograph
+              - text: Recent digital photo of the student (JPG/PNG)
+            - generic [ref=f19e79]:
+              - generic [ref=f19e80]: Birth Certificate or Aadhar
+              - text: Date of birth and identity verification
+            - generic [ref=f19e85]:
+              - generic [ref=f19e86]: Parent / Guardian Contacts
+              - text: Active phone number & email address
+            - generic [ref=f19e91]:
+              - generic [ref=f19e92]: Previous Report Card
+              - text: Transfer certificate/marks (For Class 2+)
+        - generic [ref=f19e94]:
+          - generic [ref=f19e95]:
+            - heading "Need Assistance?" [level=6] [ref=f19e99]
+            - paragraph [ref=f19e100]: Our admissions counselors are available Monday to Saturday (9:00 AM – 4:00 PM) to help you choose the right grade.
+            - generic [ref=f19e101]:
+              - generic [ref=f19e102]: OFFICIAL HELPLINE
+              - link "9797524757" [ref=f19e103] [cursor=pointer]:
+                - /url: tel:9797524757
+            - generic [ref=f19e106]:
+              - generic [ref=f19e107]: EMAIL SUPPORT
+              - link "nationalpublicschoolmandi@gmail.com" [ref=f19e108] [cursor=pointer]:
+                - /url: mailto:nationalpublicschoolmandi@gmail.com
+          - link "Return to Homepage" [ref=f19e112] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+  - contentinfo [ref=f19e115]:
+    - generic [ref=f19e117]:
+      - generic [ref=f19e119]:
+        - img "School Logo" [ref=f19e120]
+        - paragraph [ref=f19e121]: Revolutionizing education through innovation and character building. YASEEN ENGLISH SCHOOL is proud to be part of the YES INDIA FOUNDATION, a Kerala-based academic council dedicated to excellence.
+        - generic [ref=f19e122]:
+          - link "Facebook" [ref=f19e123] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f19e126] [cursor=pointer]:
+            - /url: https://www.instagram.com/yes.huh.school?utm_source=qr&igsh=MXh0NzJrcmQzdjJ4OA==
+          - link "Twitter" [ref=f19e129] [cursor=pointer]:
+            - /url: "#"
+          - link "Youtube" [ref=f19e132] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f19e135]:
+        - heading "ADMISSIONS" [level=6] [ref=f19e136]
+        - list [ref=f19e137]:
+          - listitem [ref=f19e138]:
+            - link "How to Apply" [ref=f19e139] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+      - generic [ref=f19e140]:
+        - heading "EXPLORE" [level=6] [ref=f19e141]
+        - list [ref=f19e142]:
+          - listitem [ref=f19e143]:
+            - link "Home" [ref=f19e144] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f19e145]:
+            - link "School Gallery" [ref=f19e146] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f19e147]:
+            - link "Academic Calendar" [ref=f19e148] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f19e149]:
+            - link "Help Center" [ref=f19e150] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f19e151]:
+            - link "Privacy Policy" [ref=f19e152] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f19e153]:
+        - heading "GET IN TOUCH" [level=6] [ref=f19e154]
+        - generic [ref=f19e155]:
+          - generic [ref=f19e156]: YASEEN ENGLISH SCHOOL,Samote, Raza Nagar, Surankote, Poonch, Jammu & Kashmir
+          - 'link "Principal: 9797524757" [ref=f19e161] [cursor=pointer]':
+            - /url: tel:9797524757
+          - link "nationalpublicschoolmandi@gmail.com" [ref=f19e166] [cursor=pointer]:
+            - /url: mailto:nationalpublicschoolmandi@gmail.com
+        - generic [ref=f19e171]:
+          - generic [ref=f19e172]: School Office Hours
+          - paragraph [ref=f19e173]: "Monday – Saturday: 9:00 AM – 3:00 PMSunday: Closed"
+    - generic [ref=f19e176]:
+      - generic [ref=f19e178]:
+        - generic [ref=f19e179]: © 2026 YASEEN ENGLISH SCHOOL. All rights reserved.
+        - generic [ref=f19e180]: "Visitors: 21"
+      - generic [ref=f19e185]:
+        - generic [ref=f19e186]: Designed & Developed by
+        - link [ref=f19e187] [cursor=pointer]:
+          - /url: https://cyberduce.com
+          - img "Cyberduce Logo" [ref=f19e188]

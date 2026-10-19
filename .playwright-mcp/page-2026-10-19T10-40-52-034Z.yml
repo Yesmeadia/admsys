@@ -1,0 +1,415 @@
+- generic [active] [ref=f138e1]:
+  - navigation [ref=f138e2]:
+    - generic [ref=f138e3]:
+      - link "School Logo YASEEN ENGLISH SCHOOL" [ref=f138e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "School Logo" [ref=f138e5]
+        - generic [ref=f138e6]: YASEEN ENGLISH SCHOOL
+      - list [ref=f138e9]:
+        - listitem [ref=f138e10]:
+          - link "Home" [ref=f138e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=f138e12]:
+          - link "Apply Now" [ref=f138e13] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admission/select-form
+  - main [ref=f138e14]:
+    - generic [ref=f138e15]:
+      - generic [ref=f138e16]:
+        - link [ref=f138e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "School Logo" [ref=f138e18]
+        - heading "Higher Secondary Registration" [level=1] [ref=f138e19]
+        - paragraph [ref=f138e20]: "Admission Path: Class 11th Only • Session 2026-2027"
+      - generic [ref=f138e21]:
+        - complementary [ref=f138e22]:
+          - navigation [ref=f138e23]:
+            - link " Candidate Identity" [ref=f138e24] [cursor=pointer]:
+              - /url: "#section-identity"
+              - generic [ref=f138e25]: 
+              - text: Candidate Identity
+            - link " Government IDs" [ref=f138e26] [cursor=pointer]:
+              - /url: "#section-official"
+              - generic [ref=f138e27]: 
+              - text: Government IDs
+            - link " Parental Data" [ref=f138e28] [cursor=pointer]:
+              - /url: "#section-parents"
+              - generic [ref=f138e29]: 
+              - text: Parental Data
+            - link " Communications" [ref=f138e30] [cursor=pointer]:
+              - /url: "#section-contact"
+              - generic [ref=f138e31]: 
+              - text: Communications
+            - link " Stream & Subjects" [ref=f138e32] [cursor=pointer]:
+              - /url: "#section-stream"
+              - generic [ref=f138e33]: 
+              - text: Stream & Subjects
+            - link " Academic Level" [ref=f138e34] [cursor=pointer]:
+              - /url: "#section-academic"
+              - generic [ref=f138e35]: 
+              - text: Academic Level
+            - link " Rules & Regulations" [ref=f138e36] [cursor=pointer]:
+              - /url: "#section-rules"
+              - generic [ref=f138e37]: 
+              - text: Rules & Regulations
+            - link " Documents Enclosure" [ref=f138e38] [cursor=pointer]:
+              - /url: "#section-declaration"
+              - generic [ref=f138e39]: 
+              - text: Documents Enclosure
+          - paragraph [ref=f138e41]:
+            - generic [ref=f138e42]: 
+            - generic [ref=f138e43]: End-to-end encrypted secure institutional transmission.
+        - main [ref=f138e44]:
+          - generic [ref=f138e45]:
+            - generic [ref=f138e46]:
+              - generic [ref=f138e47]:
+                - generic "Click to upload candidate photo" [ref=f138e49] [cursor=pointer]:
+                  - generic [ref=f138e50]: 
+                  - paragraph [ref=f138e51]: Upload Photo
+                - generic [ref=f138e53]:
+                  - generic [ref=f138e54]:
+                    - generic [ref=f138e55]: Name *
+                    - textbox "Name *" [ref=f138e56]:
+                      - /placeholder: Enter candidate's first name
+                  - generic [ref=f138e57]:
+                    - generic [ref=f138e58]: Surname Name
+                    - textbox "Surname Name" [ref=f138e59]:
+                      - /placeholder: Enter surname
+                  - generic [ref=f138e60]:
+                    - generic [ref=f138e61]: Date of Birth *
+                    - textbox "Date of Birth *" [ref=f138e62]
+                  - generic [ref=f138e63]:
+                    - generic [ref=f138e64]: Date of Birth (Words) *
+                    - textbox "Date of Birth (Words) *" [ref=f138e65]:
+                      - /placeholder: Auto-generated in formal words
+              - generic [ref=f138e66]:
+                - generic [ref=f138e67]:
+                  - generic [ref=f138e68]: Place of Birth *
+                  - textbox "Place of Birth *" [ref=f138e69]:
+                    - /placeholder: Enter place of birth
+                - generic [ref=f138e70]:
+                  - generic [ref=f138e71]: Mother Tongue *
+                  - textbox "Mother Tongue *" [ref=f138e72]:
+                    - /placeholder: Enter mother tongue
+                - generic [ref=f138e73]:
+                  - generic [ref=f138e74]: Gender *
+                  - generic [ref=f138e75]:
+                    - generic [ref=f138e76] [cursor=pointer]: Male
+                    - generic [ref=f138e79] [cursor=pointer]: Female
+              - generic [ref=f138e82]:
+                - generic [ref=f138e83]:
+                  - generic [ref=f138e84]: Relegion *
+                  - generic [ref=f138e85]:
+                    - combobox "Relegion *" [ref=f138e86]:
+                      - option "Select Religion" [selected]
+                      - option "Islam"
+                      - option "Hinduism"
+                      - option "Christianity"
+                      - option "Sikhism"
+                      - option "Buddhism"
+                      - option "Jainism"
+                      - option "Other"
+                    - generic: 
+                - generic [ref=f138e87]:
+                  - generic [ref=f138e88]: Caste / Catogory *
+                  - generic [ref=f138e89]:
+                    - combobox "Caste / Catogory *" [ref=f138e90]:
+                      - option "Select Category" [selected]
+                      - option "General"
+                      - option "OBC"
+                      - option "OEC"
+                      - option "SC"
+                      - option "ST"
+                      - option "EWS"
+                      - option "Other"
+                    - generic: 
+                - generic [ref=f138e91]:
+                  - generic [ref=f138e92]: Sub Caste
+                  - textbox "Sub Caste" [ref=f138e93]:
+                    - /placeholder: Enter sub-caste (optional)
+              - generic [ref=f138e94]:
+                - generic [ref=f138e95]:
+                  - generic [ref=f138e96]: Blood Gruop
+                  - generic [ref=f138e97]:
+                    - combobox "Blood Gruop" [ref=f138e98]:
+                      - option "Select Blood Group" [selected]
+                      - option "A+"
+                      - option "A-"
+                      - option "B+"
+                      - option "B-"
+                      - option "O+"
+                      - option "O-"
+                      - option "AB+"
+                      - option "AB-"
+                    - generic: 
+                - generic [ref=f138e99]:
+                  - generic [ref=f138e100]: Aadhaar Number *
+                  - textbox "Aadhaar Number *" [ref=f138e101]:
+                    - /placeholder: 12-digit UIDAI number
+                - generic [ref=f138e102]:
+                  - generic [ref=f138e103]: Nationality *
+                  - textbox "Nationality *" [ref=f138e104]:
+                    - /placeholder: e.g. INDIAN
+                    - text: INDIAN
+            - generic [ref=f138e106]:
+              - generic [ref=f138e107]:
+                - generic [ref=f138e108]: APAAR ID (If available)
+                - textbox "APAAR ID (If available)" [ref=f138e109]:
+                  - /placeholder: APAAR Number
+              - generic [ref=f138e110]:
+                - generic [ref=f138e111]: PEN Number
+                - textbox "PEN Number" [ref=f138e112]:
+                  - /placeholder: Permanent Education Number
+              - generic [ref=f138e113]:
+                - generic [ref=f138e114]: Adharshil No
+                - textbox "Adharshil No" [ref=f138e115]:
+                  - /placeholder: Adharshil Number
+            - generic [ref=f138e117]:
+              - generic [ref=f138e119]:
+                - generic "Click to upload father's photograph" [ref=f138e120] [cursor=pointer]:
+                  - generic [ref=f138e121]: 
+                  - paragraph [ref=f138e122]: Upload Photo
+                - generic [ref=f138e123]:
+                  - generic [ref=f138e124]: Name of Father *
+                  - textbox "Name of Father *" [ref=f138e125]:
+                    - /placeholder: Father's Full Name
+                - generic [ref=f138e126]:
+                  - generic [ref=f138e127]: Qualification
+                  - textbox "Qualification" [ref=f138e128]
+                - generic [ref=f138e129]:
+                  - generic [ref=f138e130]: Occupation
+                  - textbox "Occupation" [ref=f138e131]
+                - generic [ref=f138e132]:
+                  - generic [ref=f138e133]: Income
+                  - textbox "Income" [ref=f138e134]
+              - generic [ref=f138e136]:
+                - generic "Click to upload mother's photograph" [ref=f138e137] [cursor=pointer]:
+                  - generic [ref=f138e138]: 
+                  - paragraph [ref=f138e139]: Upload Photo
+                - generic [ref=f138e140]:
+                  - generic [ref=f138e141]: Name of Mother *
+                  - textbox "Name of Mother *" [ref=f138e142]:
+                    - /placeholder: Mother's Full Name
+                - generic [ref=f138e143]:
+                  - generic [ref=f138e144]: Qualification
+                  - textbox "Qualification" [ref=f138e145]
+                - generic [ref=f138e146]:
+                  - generic [ref=f138e147]: Occupation
+                  - textbox "Occupation" [ref=f138e148]
+                - generic [ref=f138e149]:
+                  - generic [ref=f138e150]: Income
+                  - textbox "Income" [ref=f138e151]
+            - generic [ref=f138e152]:
+              - generic [ref=f138e153]:
+                - generic [ref=f138e154]: Guardian
+                - generic [ref=f138e155]:
+                  - generic [ref=f138e156] [cursor=pointer]: Father
+                  - generic [ref=f138e159] [cursor=pointer]: Mother
+                  - generic [ref=f138e162] [cursor=pointer]: Others
+              - generic [ref=f138e165]:
+                - generic [ref=f138e166]: Current Address *
+                - textbox "Current Address *" [ref=f138e167]:
+                  - /placeholder: Current Address
+              - generic [ref=f138e168]:
+                - generic [ref=f138e169]:
+                  - generic [ref=f138e170]: Permanent Address *
+                  - generic [ref=f138e171] [cursor=pointer]: Same as
+                - textbox "Permanent Address *" [ref=f138e174]:
+                  - /placeholder: Permanent Address
+              - generic [ref=f138e175]:
+                - generic [ref=f138e176]:
+                  - generic [ref=f138e177]: Mobile Number *
+                  - textbox "Mobile Number *" [ref=f138e178]:
+                    - /placeholder: Mobile Number
+                - generic [ref=f138e179]:
+                  - generic [ref=f138e180]: Alternative Number
+                  - textbox "Alternative Number" [ref=f138e181]
+                - generic [ref=f138e182]:
+                  - generic [ref=f138e183]: Email Address
+                  - textbox "Email Address" [ref=f138e184]
+            - generic [ref=f138e185]:
+              - paragraph [ref=f138e187]: Choose your preferred academic path. Each stream has fixed core subjects and choice-based combinations.
+              - generic [ref=f138e188]:
+                - generic [ref=f138e190] [cursor=pointer]:
+                  - generic [ref=f138e191]:
+                    - heading "Science Stream" [level=5] [ref=f138e192]
+                    - paragraph [ref=f138e193]: Medical & Engineering Prep
+                  - generic [ref=f138e194]: 
+                - generic [ref=f138e197] [cursor=pointer]:
+                  - generic [ref=f138e198]:
+                    - heading "Arts Stream" [level=5] [ref=f138e199]
+                    - paragraph [ref=f138e200]: Humanities & Liberal Sciences
+                  - generic [ref=f138e201]: 
+              - text:        
+            - generic [ref=f138e204]:
+              - generic [ref=f138e205]:
+                - generic [ref=f138e206]: Admission Sought for *
+                - generic [ref=f138e207]:
+                  - combobox "Admission Sought for *" [ref=f138e208]:
+                    - option "Select Target Class"
+                    - option "Class 11" [selected]
+                  - generic: 
+              - generic [ref=f138e209]:
+                - generic [ref=f138e210]: Academic session *
+                - textbox "Academic session *" [ref=f138e211]: 2026-2027
+              - generic [ref=f138e212]:
+                - generic [ref=f138e213]: Previous School Name *
+                - textbox "Previous School Name *" [ref=f138e214]:
+                  - /placeholder: ""
+            - generic [ref=f138e215]:
+              - heading "Rules & Regulations" [level=4] [ref=f138e217]
+              - generic [ref=f138e218]:
+                - heading "Institutional Policies & Code of Ethics" [level=6] [ref=f138e220]
+                - generic [ref=f138e221]:
+                  - generic [ref=f138e223]:
+                    - generic [ref=f138e224]: Institutional Authority
+                    - paragraph [ref=f138e226]: Head of Institution retains final authority to admit or refuse candidates. Management reserves right to amend provisions.
+                  - generic [ref=f138e228]:
+                    - generic [ref=f138e229]: Fee Terms
+                    - paragraph [ref=f138e231]: No fee concessions apply. Fees are strictly non-refundable even upon mid-session withdrawal or admission cancellation.
+                  - generic [ref=f138e233]:
+                    - generic [ref=f138e234]: Age Criteria & NEP 2020
+                    - paragraph [ref=f138e236]: Candidate minimum age criteria strictly adheres to National Education Policy (NEP) 2020 and State Board norms.
+                  - generic [ref=f138e238]:
+                    - generic [ref=f138e239]: Original Documentation
+                    - paragraph [ref=f138e241]: All verified credentials, Leaving Certificate, and original records must be submitted for final enrollment validation.
+                  - generic [ref=f138e243]:
+                    - generic [ref=f138e244]: Health Disclosure
+                    - paragraph [ref=f138e246]: Parents are required to disclose any pre-existing medical or psychological care needs prior to formal admission.
+                  - generic [ref=f138e248]:
+                    - generic [ref=f138e249]: Attendance & Leaves
+                    - paragraph [ref=f138e251]: Prior leave applications are mandatory. Unexplained absence over 30 continuous days results in registration removal.
+                  - generic [ref=f138e253]:
+                    - generic [ref=f138e254]: Zero-Tolerance Code of Conduct
+                    - paragraph [ref=f138e256]: Zero tolerance for misconduct, bullying, violence, or disrespect. Standard prescribed uniforms and disciplined grooming are mandatory.
+              - generic [ref=f138e257] [cursor=pointer]:
+                - checkbox "I have carefully read, understood, and solemnly agree to abide by all the Admission Rules, Regulations & Institutional Policies of YASEEN ENGLISH SCHOOL. I certify that the information entered is authentic and accurate to the best of my knowledge." [ref=f138e259]
+                - generic [ref=f138e260]:
+                  - text: I have carefully read, understood, and solemnly agree to abide by all the
+                  - strong [ref=f138e261]: Admission Rules, Regulations & Institutional Policies
+                  - text: of YASEEN ENGLISH SCHOOL. I certify that the information entered is authentic and accurate to the best of my knowledge.
+            - generic [ref=f138e262]:
+              - heading "Documents Enclosure" [level=4] [ref=f138e264]
+              - generic [ref=f138e265]:
+                - heading "Required Documents Checklist (Bring at Verification)" [level=6] [ref=f138e267]
+                - generic [ref=f138e268]:
+                  - generic [ref=f138e270]:
+                    - generic [ref=f138e271]: 
+                    - generic [ref=f138e272]: Student Aadhar card copy
+                  - generic [ref=f138e274]:
+                    - generic [ref=f138e275]: 
+                    - generic [ref=f138e276]: Transfer Certificate (LC)
+                  - generic [ref=f138e278]:
+                    - generic [ref=f138e279]: 
+                    - generic [ref=f138e280]: Parent Aadhar Card
+                  - generic [ref=f138e282]:
+                    - generic [ref=f138e283]: 
+                    - generic [ref=f138e284]: Passport Size Photographs
+                  - generic [ref=f138e286]:
+                    - generic [ref=f138e287]: 
+                    - generic [ref=f138e288]: Previous Standard Marklist
+                  - generic [ref=f138e290]:
+                    - generic [ref=f138e291]: 
+                    - generic [ref=f138e292]: Original Certificate of Board Exam
+                  - generic [ref=f138e294]:
+                    - generic [ref=f138e295]: 
+                    - generic [ref=f138e296]: Reservation / Caste Certificate (if applicable)
+              - iframe [ref=f138e301]:
+                - generic [ref=f139e2]:
+                  - generic [ref=f139e3]:
+                    - checkbox "I'm not a robot" [ref=f139e7]
+                    - generic [aria-hidden] [ref=f139e11]: I'm not a robot
+                  - generic [ref=f139e12]: reCAPTCHA
+              - button "SUBMIT APPLICATION " [ref=f138e303] [cursor=pointer]:
+                - generic [ref=f138e304]: SUBMIT APPLICATION
+                - generic [ref=f138e305]: 
+  - contentinfo [ref=f138e306]:
+    - generic [ref=f138e309]:
+      - generic [ref=f138e310]:
+        - heading "Admissions Open 2026–2027" [level=5] [ref=f138e311]
+        - paragraph [ref=f138e313]: Enroll your ward into our Lower Academy, General Education, or Higher Secondary wings today.
+      - generic [ref=f138e314]:
+        - link "Apply Online Now" [ref=f138e315] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admission/select-form
+        - link "Contact Desk" [ref=f138e319] [cursor=pointer]:
+          - /url: tel:9797524757
+    - generic [ref=f138e325]:
+      - generic [ref=f138e326]:
+        - generic [ref=f138e327]:
+          - img "YASEEN ENGLISH SCHOOL Crest" [ref=f138e328]
+          - heading "YASEEN ENGLISH SCHOOL" [level=4] [ref=f138e330]
+        - paragraph [ref=f138e331]: Committed to academic rigor, character building, and moral empowerment. Part of the prestigious YES INDIA FOUNDATION academic council, nurturing future scholars and leaders.
+        - generic [ref=f138e332]:
+          - link "Facebook" [ref=f138e333] [cursor=pointer]:
+            - /url: www.facebook.com/
+          - link "Instagram" [ref=f138e336] [cursor=pointer]:
+            - /url: www.instagram.com/
+          - link "Twitter" [ref=f138e339] [cursor=pointer]:
+            - /url: www.twitter.com/
+          - link "YouTube" [ref=f138e342] [cursor=pointer]:
+            - /url: www.youtube.com/
+      - generic [ref=f138e345]:
+        - heading "Admissions" [level=6] [ref=f138e346]
+        - list [ref=f138e347]:
+          - listitem [ref=f138e348]:
+            - link "Lower Academy" [ref=f138e349] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form1
+          - listitem [ref=f138e353]:
+            - link "General Education" [ref=f138e354] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form2
+          - listitem [ref=f138e358]:
+            - link "Higher Secondary" [ref=f138e359] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form3
+          - listitem [ref=f138e363]:
+            - link "How to Apply" [ref=f138e364] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+      - generic [ref=f138e368]:
+        - heading "Quick Links" [level=6] [ref=f138e369]
+        - list [ref=f138e370]:
+          - listitem [ref=f138e371]:
+            - link "Home Portal" [ref=f138e372] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f138e376]:
+            - link "Select Program" [ref=f138e377] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+          - listitem [ref=f138e381]:
+            - link "Wings & Streams" [ref=f138e382] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000#programs
+          - listitem [ref=f138e386]:
+            - link "Staff & Admin" [ref=f138e387] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/login
+      - generic [ref=f138e391]:
+        - heading "Campus Directory" [level=6] [ref=f138e392]
+        - generic [ref=f138e393]:
+          - paragraph [ref=f138e399]:
+            - strong [ref=f138e400]: YASEEN ENGLISH SCHOOL
+            - text: Samote, Raza Nagar, Surankote, Poonch, Jammu & Kashmir
+          - link [ref=f138e401] [cursor=pointer]:
+            - /url: tel:9797524757
+            - paragraph [ref=f138e406]: "9797524757"
+          - link [ref=f138e407] [cursor=pointer]:
+            - /url: mailto:nationalpublicschoolmandi@gmail.com
+            - paragraph [ref=f138e412]: nationalpublicschoolmandi@gmail.com
+        - generic [ref=f138e416]:
+          - strong [ref=f138e417]: "Office Hours:"
+          - text: "Mon – Sat: 9:00 AM – 3:00 PM (Closed Sundays)"
+    - generic [ref=f138e420]:
+      - generic [ref=f138e421]:
+        - paragraph [ref=f138e422]: © 2026 YASEEN ENGLISH SCHOOL. All rights reserved.
+        - generic [ref=f138e423]:
+          - generic [ref=f138e424]: •
+          - link "Privacy Policy" [ref=f138e425] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=f138e426]: •
+          - link "Terms of Admission" [ref=f138e427] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f138e428]:
+        - generic [ref=f138e430]: Live Portal
+        - generic [ref=f138e431]: "|"
+        - generic [ref=f138e434]:
+          - text: "Visitors:"
+          - strong [ref=f138e435]: "23"
+      - generic [ref=f138e436]:
+        - generic [ref=f138e437]: Designed & Developed by
+        - link [ref=f138e438] [cursor=pointer]:
+          - /url: https://cyberduce.com
+          - img "Cyberduce Logo" [ref=f138e439]

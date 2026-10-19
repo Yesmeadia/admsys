@@ -1,0 +1,213 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - link [ref=f26e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin/dashboard
+      - img "Full Logo" [ref=f26e5]
+    - list [ref=f26e6]:
+      - listitem [ref=f26e7]:
+        - link " Dashboard" [ref=f26e8] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/dashboard
+          - generic [ref=f26e9]: 
+          - generic [ref=f26e10]: Dashboard
+      - listitem [ref=f26e11]:
+        - link " Applications" [ref=f26e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/applications
+          - generic [ref=f26e13]: 
+          - generic [ref=f26e14]: Applications
+      - listitem [ref=f26e15]:
+        - link " Statistics & Reports" [ref=f26e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/statistics
+          - generic [ref=f26e17]: 
+          - generic [ref=f26e18]: Statistics & Reports
+      - listitem [ref=f26e19]:
+        - link " Notifications" [ref=f26e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/notifications
+          - generic [ref=f26e21]: 
+          - generic [ref=f26e22]: Notifications
+      - listitem [ref=f26e23]:
+        - link " User Management" [ref=f26e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/users
+          - generic [ref=f26e25]: 
+          - generic [ref=f26e26]: User Management
+      - listitem [ref=f26e27]:
+        - link " System Settings" [ref=f26e28] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/settings
+          - generic [ref=f26e29]: 
+          - generic [ref=f26e30]: System Settings
+      - listitem [ref=f26e31]:
+        - link " Activity Logs" [ref=f26e32] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/activity-logs
+          - generic [ref=f26e33]: 
+          - generic [ref=f26e34]: Activity Logs
+      - listitem [ref=f26e35]:
+        - link " My Account" [ref=f26e36] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/profile
+          - generic [ref=f26e37]: 
+          - generic [ref=f26e38]: My Account
+      - listitem [ref=f26e39]:
+        - link " Logout" [ref=f26e40] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f26e41]: 
+          - generic [ref=f26e42]: Logout
+  - generic [ref=f26e43]:
+    - generic [ref=f26e44]:
+      - generic [ref=f26e45]:
+        - button "" [ref=f26e46] [cursor=pointer]
+        - generic [ref=f26e48]:
+          - heading "Manage Applications" [level=1] [ref=f26e49]
+          - paragraph [ref=f26e50]: View and process admission requests
+      - generic [ref=f26e51]:
+        - button "" [ref=f26e52] [cursor=pointer]
+        - generic [ref=f26e54]:
+          - button "" [ref=f26e55] [cursor=pointer]
+          - text: 
+        - generic [ref=f26e59] [cursor=pointer]:
+          - heading "Administrator" [level=6] [ref=f26e60]
+          - text: Administrator
+    - generic [ref=f26e66]:
+      - generic [ref=f26e67]:
+        - generic [ref=f26e69]:
+          - generic [ref=f26e70]:
+            - generic [ref=f26e71]: 
+            - heading "0" [level=5] [ref=f26e73]
+          - paragraph [ref=f26e74]: total
+          - generic [ref=f26e75]: 
+        - generic [ref=f26e78]:
+          - generic [ref=f26e79]:
+            - generic [ref=f26e80]: 
+            - heading "0" [level=5] [ref=f26e82]
+          - paragraph [ref=f26e83]: pending
+          - generic [ref=f26e84]: 
+        - generic [ref=f26e87]:
+          - generic [ref=f26e88]:
+            - generic [ref=f26e89]: 
+            - heading "0" [level=5] [ref=f26e91]
+          - paragraph [ref=f26e92]: admitted
+          - generic [ref=f26e93]: 
+        - generic [ref=f26e96]:
+          - generic [ref=f26e97]:
+            - generic [ref=f26e98]: 
+            - heading "0" [level=5] [ref=f26e100]
+          - paragraph [ref=f26e101]: paid
+          - generic [ref=f26e102]: 
+        - generic [ref=f26e105]:
+          - generic [ref=f26e106]:
+            - generic [ref=f26e107]: 
+            - heading "0" [level=5] [ref=f26e109]
+          - paragraph [ref=f26e110]: unpaid
+          - generic [ref=f26e111]: 
+        - generic [ref=f26e114]:
+          - generic [ref=f26e115]:
+            - generic [ref=f26e116]: 
+            - heading "0" [level=5] [ref=f26e118]
+          - paragraph [ref=f26e119]: partial
+          - generic [ref=f26e120]: 
+      - generic [ref=f26e122]:
+        - generic [ref=f26e123]:
+          - heading "Search & Filter" [level=5] [ref=f26e124]
+          - button " Toggle Filters" [expanded] [ref=f26e125] [cursor=pointer]:
+            - generic [ref=f26e126]: 
+            - text: Toggle Filters
+        - generic [ref=f26e128]:
+          - generic [ref=f26e129]:
+            - generic [ref=f26e130]:
+              - generic [ref=f26e131]: Keyword Search
+              - generic [ref=f26e132]:
+                - generic [ref=f26e133]: 
+                - textbox "SEARCH NAME, UID, EMAIL, MOBILE..." [ref=f26e135]
+            - generic [ref=f26e136]:
+              - generic [ref=f26e137]: Form Type
+              - combobox [ref=f26e138]:
+                - option "ALL TYPES" [selected]
+                - option "Form 1 (Pre-Primary)"
+                - option "Form 2 (Class 2 to 10)"
+                - option "Form 3 (Higher Secondary)"
+            - generic [ref=f26e139]:
+              - generic [ref=f26e140]: Academic Class
+              - combobox [ref=f26e141]:
+                - option "ALL CLASSES" [selected]
+          - generic [ref=f26e142]:
+            - generic [ref=f26e143]:
+              - generic [ref=f26e144]: Status & Filters
+              - generic [ref=f26e145]:
+                - combobox [ref=f26e146]:
+                  - option "APP STAT" [selected]
+                  - option "Pending"
+                  - option "Reviewed"
+                  - option "Accepted"
+                  - option "Rejected"
+                - combobox [ref=f26e147]:
+                  - option "FEE STAT" [selected]
+                  - option "Unpaid"
+                  - option "Paid"
+                  - option "Partial"
+                  - option "Fee Quoted"
+                - combobox [ref=f26e148]:
+                  - option "DOC STA" [selected]
+                  - option "Attached"
+                  - option "Missing"
+            - generic [ref=f26e149]:
+              - generic [ref=f26e150]: Payment Date Range
+              - generic [ref=f26e151]:
+                - combobox [ref=f26e152]:
+                  - option "QUICK" [selected]
+                  - option "Today"
+                  - option "Yesterday"
+                  - option "This Week"
+                  - option "This Month"
+                  - option "Last Month"
+                - textbox [ref=f26e153]:
+                  - /placeholder: DD / MM / YYYY
+                - textbox [ref=f26e154]:
+                  - /placeholder: DD / MM / YYYY
+            - generic [ref=f26e155]:
+              - generic [ref=f26e156]: Application Date Range
+              - generic [ref=f26e157]:
+                - combobox [ref=f26e158]:
+                  - option "QUICK" [selected]
+                  - option "Today"
+                  - option "Yesterday"
+                  - option "This Week"
+                  - option "This Month"
+                  - option "Last Month"
+                - textbox [ref=f26e159]:
+                  - /placeholder: DD / MM / YYYY
+                - textbox [ref=f26e160]:
+                  - /placeholder: DD / MM / YYYY
+          - generic [ref=f26e161]:
+            - generic [ref=f26e162]:
+              - button " Apply Filters" [ref=f26e163] [cursor=pointer]:
+                - generic [ref=f26e164]: 
+                - text: Apply Filters
+              - link " Reset" [ref=f26e165] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/applications
+                - generic [ref=f26e166]: 
+                - text: Reset
+            - button " Export CSV" [ref=f26e168] [cursor=pointer]:
+              - generic [ref=f26e169]: 
+              - text: Export CSV
+      - generic [ref=f26e170]:
+        - table [ref=f26e172]:
+          - rowgroup [ref=f26e173]:
+            - row [ref=f26e174]:
+              - columnheader "ID" [ref=f26e175]
+              - columnheader "Student Information" [ref=f26e176]
+              - columnheader "Class & Type" [ref=f26e177]
+              - columnheader "Status" [ref=f26e178]
+              - columnheader "Fee Status" [ref=f26e179]
+              - columnheader "Date Applied" [ref=f26e180]
+              - columnheader "Actions" [ref=f26e181]
+          - rowgroup [ref=f26e182]:
+            - row [ref=f26e183]:
+              - cell [ref=f26e184]:
+                - heading "No applications matching your criteria" [level=6] [ref=f26e186]
+                - paragraph [ref=f26e187]: Try adjusting your filters or search keywords
+        - generic: 
+    - contentinfo [ref=f26e188]:
+      - generic [ref=f26e189]:
+        - generic [ref=f26e190]: © 2026 YES INDIA FOUNDATION. All rights reserved.
+        - generic [ref=f26e191]:
+          - generic [ref=f26e192]: Designed & Developed by
+          - link [ref=f26e193] [cursor=pointer]:
+            - /url: https://cyberduce.com
+            - img "Cyberduce Logo" [ref=f26e194]

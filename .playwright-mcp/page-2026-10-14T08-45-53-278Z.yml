@@ -1,0 +1,388 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "School Logo YES NATIONAL PUBLIC SCHOOL" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "School Logo" [ref=e5]
+        - generic [ref=e6]: YES NATIONAL PUBLIC SCHOOL
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=e12]:
+          - link "Apply Now" [ref=e13] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admission/select-form
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "School Logo" [ref=e18]
+        - heading "Early Years Registration" [level=1] [ref=e19]
+        - paragraph [ref=e20]: "Admission Path: Nursery to Class 1 • Session 2026-2027"
+      - generic [ref=e21]:
+        - complementary [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - heading "Application Stages" [level=6] [ref=e25]
+              - generic [ref=e26]: 5%
+            - progressbar [ref=e28]
+          - navigation [ref=e29]:
+            - link " Identifications" [ref=e30] [cursor=pointer]:
+              - /url: "#section-photos"
+              - generic [ref=e31]: 
+              - text: Identifications
+            - link " Student Records" [ref=e32] [cursor=pointer]:
+              - /url: "#section-student"
+              - generic [ref=e33]: 
+              - text: Student Records
+            - link " Parental Data" [ref=e34] [cursor=pointer]:
+              - /url: "#section-parents"
+              - generic [ref=e35]: 
+              - text: Parental Data
+            - link " Communications" [ref=e36] [cursor=pointer]:
+              - /url: "#section-contact"
+              - generic [ref=e37]: 
+              - text: Communications
+            - link " Academic Level" [ref=e38] [cursor=pointer]:
+              - /url: "#section-academic"
+              - generic [ref=e39]: 
+              - text: Academic Level
+            - link " Rules & Regulations" [ref=e40] [cursor=pointer]:
+              - /url: "#section-rules"
+              - generic [ref=e41]: 
+              - text: Rules & Regulations
+            - link " Documents Enclosure" [ref=e42] [cursor=pointer]:
+              - /url: "#section-declaration"
+              - generic [ref=e43]: 
+              - text: Documents Enclosure
+          - paragraph [ref=e45]:
+            - generic [ref=e46]: 
+            - generic [ref=e47]: End-to-end encrypted secure institutional transmission.
+        - main [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: 
+                - heading "Candidate Identity" [level=4] [ref=e54]
+              - generic [ref=e55]:
+                - generic [ref=e57] [cursor=pointer]:
+                  - generic [ref=e58]: 
+                  - paragraph [ref=e59]: UPLOAD PHOTO
+                - generic [ref=e61]:
+                  - generic [ref=e62]:
+                    - generic [ref=e63]: Name *
+                    - textbox "Name *" [ref=e64]:
+                      - /placeholder: Given name
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: Surname
+                    - textbox "Surname" [ref=e67]:
+                      - /placeholder: Family name
+                - generic [ref=e68]:
+                  - generic [ref=e69]: Birth Date *
+                  - textbox "Birth Date *" [ref=e70]
+                - generic [ref=e71]:
+                  - generic [ref=e72]: Birth Date (Formal Words) *
+                  - textbox "Birth Date (Formal Words) *" [ref=e73]
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Place of Birth *
+                  - textbox "Place of Birth *" [ref=e76]:
+                    - /placeholder: City / Town
+                - generic [ref=e77]:
+                  - generic [ref=e78]: Gender *
+                  - generic [ref=e79]:
+                    - combobox "Gender *" [ref=e80]:
+                      - option "Choose Option" [selected]
+                      - option "Male"
+                      - option "Female"
+                    - generic: 
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Mother Tongue *
+                  - textbox "Mother Tongue *" [ref=e83]:
+                    - /placeholder: e.g. Malayalam, English
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Blood Group
+                  - generic [ref=e86]:
+                    - combobox "Blood Group" [ref=e87]:
+                      - option "Select Blood Group" [selected]
+                      - option "A+"
+                      - option "A-"
+                      - option "B+"
+                      - option "B-"
+                      - option "O+"
+                      - option "O-"
+                      - option "AB+"
+                      - option "AB-"
+                    - generic: 
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Religion *
+                  - textbox "Religion *" [ref=e90]:
+                    - /placeholder: e.g. Islam, Hindu, Christian
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Caste / Category *
+                  - textbox "Caste / Category *" [ref=e93]:
+                    - /placeholder: e.g. General, OBC
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Sub Caste
+                  - textbox "Sub Caste" [ref=e96]
+                - generic [ref=e97]:
+                  - generic [ref=e98]: Nationality *
+                  - textbox "Nationality *" [ref=e99]: INDIAN
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Aadhar Number (12 Digits) *
+                  - textbox "Aadhar Number (12 Digits) *" [ref=e102]:
+                    - /placeholder: 12-digit Aadhaar number
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e105]: 
+                - heading "Parental Details" [level=4] [ref=e107]
+              - generic [ref=e108]:
+                - generic [ref=e111]:
+                  - heading "Father's Record" [level=6] [ref=e113]
+                  - generic [ref=e115] [cursor=pointer]:
+                    - generic [ref=e116]: 
+                    - paragraph [ref=e117]: UPLOAD PHOTO
+                  - generic [ref=e118]:
+                    - generic [ref=e119]: Full Name *
+                    - generic [ref=e120]:
+                      - generic [ref=e121]: 
+                      - textbox "Enter Name" [ref=e123]
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: Qualification
+                    - generic [ref=e126]:
+                      - generic [ref=e127]: 
+                      - textbox "Qualification" [ref=e129]
+                  - generic [ref=e130]:
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: Occupation
+                      - generic [ref=e133]:
+                        - generic [ref=e134]: 
+                        - textbox "Job/Business" [ref=e136]
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: Income
+                      - generic [ref=e139]:
+                        - generic [ref=e140]: 
+                        - textbox "Amount" [ref=e142]
+                - generic [ref=e145]:
+                  - heading "Mother's Record" [level=6] [ref=e147]
+                  - generic [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]: 
+                    - paragraph [ref=e151]: UPLOAD PHOTO
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: Full Name *
+                    - generic [ref=e154]:
+                      - generic [ref=e155]: 
+                      - textbox "Enter Name" [ref=e157]
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: Qualification
+                    - generic [ref=e160]:
+                      - generic [ref=e161]: 
+                      - textbox "Qualification" [ref=e163]
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - generic [ref=e166]: Occupation
+                      - generic [ref=e167]:
+                        - generic [ref=e168]: 
+                        - textbox "Job/Housewife" [ref=e170]
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: Income
+                      - generic [ref=e173]:
+                        - generic [ref=e174]: 
+                        - textbox "Amount" [ref=e176]
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: 
+                - heading "Communication Details" [level=4] [ref=e181]
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Guardian Name *
+                  - textbox "Guardian Name *" [ref=e185]:
+                    - /placeholder: Full name of guardian
+                - generic [ref=e187]:
+                  - generic [ref=e188]: Current Address *
+                  - textbox "Current Address *" [ref=e190]:
+                    - /placeholder: Street, area, building details...
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]: Permanent Address *
+                    - generic [ref=e195]:
+                      - checkbox "COPY FROM PRESENT" [ref=e196]
+                      - generic [ref=e197] [cursor=pointer]: COPY FROM PRESENT
+                  - textbox "Permanent Address *" [ref=e198]:
+                    - /placeholder: Legal permanent address as per ID...
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Primary Mobile *
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: 
+                    - textbox "Primary Mobile *" [ref=e204]:
+                      - /placeholder: 10-digit number
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Secondary Mobile
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: 
+                    - textbox "Secondary Mobile" [ref=e210]:
+                      - /placeholder: Alternate mobile
+                - generic [ref=e211]:
+                  - generic [ref=e212]: Email Id
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: 
+                    - textbox "Email Id" [ref=e216]:
+                      - /placeholder: name@example.com
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219]: 
+                - heading "Admission Request" [level=4] [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e224]:
+                  - generic [ref=e225]: Admission Sought For *
+                  - generic [ref=e226]:
+                    - combobox [ref=e227]:
+                      - option "Select Class" [selected]
+                      - option "Nursery"
+                      - option "Jr.KG"
+                      - option "Sr.KG"
+                      - option "1st Standard"
+                    - generic: 
+                - generic [ref=e229]:
+                  - generic [ref=e230]: Academic Session *
+                  - textbox [ref=e231]: 2026-2027
+                - generic [ref=e232]:
+                  - generic [ref=e233]: Previous Institutional record (If Applicble)
+                  - textbox "School Name, City" [ref=e234]
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic [ref=e237]: 
+                - heading "Admission Rules & Regulations" [level=4] [ref=e239]
+              - generic [ref=e241]:
+                - paragraph [ref=e242]:
+                  - strong [ref=e243]: "Authority:"
+                  - text: The Head of the Institution has the final discretion to admit or refuse any child. Management reserves the right to amend these rules at any time.
+                - paragraph [ref=e244]:
+                  - strong [ref=e245]: "Fees:"
+                  - text: There are no fee concessions. Fees are non-refundable, even if admission is cancelled in the middle of the academic year.
+                - paragraph [ref=e246]:
+                  - strong [ref=e247]: "Liability:"
+                  - text: Students should not bring money or valuables to school. The school is not responsible for any loss.
+                - paragraph [ref=e248]:
+                  - strong [ref=e249]: "Age Criteria:"
+                  - text: The minimum age for admission to each class shall be in accordance with the National Education Policy (NEP) 2020 norms and applicable government regulations.
+                - paragraph [ref=e250]:
+                  - strong [ref=e251]: "Documentation:"
+                  - text: All required documents must be submitted at the time of admission. Admission cannot be finalized without the complete set of documents listed in the form.
+                - paragraph [ref=e252]:
+                  - strong [ref=e253]: "Transfer Students:"
+                  - text: For Classes II –X, a School Leaving Certificate and Mark Sheet are mandatory. Out-of-state certificates must be countersigned by the Education Officer.
+                - paragraph [ref=e254]:
+                  - strong [ref=e255]: "Health Disclosure:"
+                  - text: Parents must disclose any physical or mental health issues before admission. Hiding this information may lead to admission cancellation.
+                - paragraph [ref=e256]:
+                  - strong [ref=e257]: "Attendance:"
+                  - text: Prior leave applications are mandatory. Medical absences exceeding three days require a doctor's certificate. Unexplained absence for over a month will result in the student's name being struck off the register.
+                - paragraph [ref=e258]:
+                  - strong [ref=e259]: "Code of Conduct:"
+                  - text: The school enforces a zero-tolerance policy for misconduct. Fighting, abusive language, bullying, or disrespect toward staff or peers will result in immediate disciplinary action, including the possibility of expulsion.
+                - paragraph [ref=e260]:
+                  - strong [ref=e261]: "Uniform & Grooming:"
+                  - text: The school uniform is mandatory; students not in compliance will be sent home. Hair must be kept simple and neat. Fashionable styles, coloring, or long hair (for boys) are strictly prohibited.
+              - generic [ref=e262] [cursor=pointer]:
+                - checkbox "I have carefully read, understood, and I solemnly agree to abide by all the Admission Rules & Regulations stated above. I also certify that all information provided in this application is authentic, and I accept the institutional policies of YES NATIONAL PUBLIC SCHOOL." [ref=e264]
+                - generic [ref=e265]: I have carefully read, understood, and I solemnly agree to abide by all the Admission Rules & Regulations stated above. I also certify that all information provided in this application is authentic, and I accept the institutional policies of YES NATIONAL PUBLIC SCHOOL.
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]: 
+                - heading "Documents Enclosure" [level=4] [ref=e270]
+              - generic [ref=e271]:
+                - heading "Required Documents Checklist" [level=6] [ref=e272]
+                - paragraph [ref=e273]: "Original items to be presented during verification:"
+                - list [ref=e274]:
+                  - listitem [ref=e275]:
+                    - generic [ref=e276]: 
+                    - text: Student's Aadhaar Card
+                  - listitem [ref=e277]:
+                    - generic [ref=e278]: 
+                    - text: Original Birth Certificate
+                  - listitem [ref=e279]:
+                    - generic [ref=e280]: 
+                    - text: Aadhaar cards of Father and Mother/Guardian
+                  - listitem [ref=e281]:
+                    - generic [ref=e282]: 
+                    - text: Two passport-sized photographs of the student
+                  - listitem [ref=e283]:
+                    - generic [ref=e284]: 
+                    - text: Reservation Certificate (if any)
+              - iframe [ref=e289]:
+                - generic [ref=f1e2]:
+                  - generic [ref=f1e3]:
+                    - checkbox "I'm not a robot" [ref=f1e7]
+                    - generic [aria-hidden] [ref=f1e11]: I'm not a robot
+                  - generic [ref=f1e12]: reCAPTCHA
+              - button "SUBMIT APPLICATION " [ref=e291] [cursor=pointer]:
+                - generic [ref=e292]: SUBMIT APPLICATION
+                - generic [ref=e293]: 
+  - contentinfo [ref=e294]:
+    - generic [ref=e296]:
+      - generic [ref=e298]:
+        - img "School Logo" [ref=e299]
+        - paragraph [ref=e300]: Revolutionizing education through innovation and character building. YES NATIONAL PUBLIC SCHOOL is proud to be part of the YES INDIA FOUNDATION, a Kerala-based academic council dedicated to excellence.
+        - generic [ref=e301]:
+          - link "Facebook" [ref=e302] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=e305] [cursor=pointer]:
+            - /url: https://www.instagram.com/yes.huh.school?utm_source=qr&igsh=MXh0NzJrcmQzdjJ4OA==
+          - link "Twitter" [ref=e308] [cursor=pointer]:
+            - /url: "#"
+          - link "Youtube" [ref=e311] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e314]:
+        - heading "ADMISSIONS" [level=6] [ref=e315]
+        - list [ref=e316]:
+          - listitem [ref=e317]:
+            - link "Lower Academy" [ref=e318] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form1
+          - listitem [ref=e319]:
+            - link "General Education" [ref=e320] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form2
+          - listitem [ref=e321]:
+            - link "Higher Secondary" [ref=e322] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form3
+          - listitem [ref=e323]:
+            - link "How to Apply" [ref=e324] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+      - generic [ref=e325]:
+        - heading "EXPLORE" [level=6] [ref=e326]
+        - list [ref=e327]:
+          - listitem [ref=e328]:
+            - link "Home" [ref=e329] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=e330]:
+            - link "School Gallery" [ref=e331] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e332]:
+            - link "Academic Calendar" [ref=e333] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e334]:
+            - link "Help Center" [ref=e335] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e336]:
+            - link "Privacy Policy" [ref=e337] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e338]:
+        - heading "GET IN TOUCH" [level=6] [ref=e339]
+        - generic [ref=e340]:
+          - generic [ref=e341]: YES NATIONAL PUBLIC SCHOOL,Mandi, Poonch 185102, Jammu & Kashmir, India
+          - 'link "Principal: 9797524757" [ref=e346] [cursor=pointer]':
+            - /url: tel:9797524757
+          - link "nationalpublicschoolmandi@gmail.com" [ref=e351] [cursor=pointer]:
+            - /url: mailto:nationalpublicschoolmandi@gmail.com
+        - generic [ref=e356]:
+          - generic [ref=e357]: School Office Hours
+          - paragraph [ref=e358]: "Monday – Saturday: 9:00 AM – 3:00 PMSunday: Closed"
+    - generic [ref=e361]:
+      - generic [ref=e363]:
+        - generic [ref=e364]: © 2026 YES NATIONAL PUBLIC SCHOOL. All rights reserved.
+        - generic [ref=e365]: "Visitors: 8"
+      - generic [ref=e370]:
+        - generic [ref=e371]: Designed & Developed by
+        - link [ref=e372] [cursor=pointer]:
+          - /url: https://cyberduce.com
+          - img "Cyberduce Logo" [ref=e373]

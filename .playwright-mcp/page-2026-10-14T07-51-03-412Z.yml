@@ -1,0 +1,39 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - generic [ref=f10e6]: ADMINISTRATIVE PORTAL
+      - heading "Welcome Back" [level=2] [ref=f10e7]
+      - paragraph [ref=f10e8]: Unlock your administrative dashboard to manage excellence.
+    - generic [ref=f10e9]:
+      - generic [ref=f10e10]:
+        - generic [ref=f10e11]: Email Address
+        - textbox "Email Address" [active] [ref=f10e13]:
+          - /placeholder: admin@example.com
+      - generic [ref=f10e14]:
+        - generic [ref=f10e15]:
+          - generic [ref=f10e16]: Password
+          - link "Forgot Password?" [ref=f10e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin/forgot-password
+        - generic [ref=f10e18]:
+          - textbox "Password" [ref=f10e19]:
+            - /placeholder: ••••••••
+          - generic [ref=f10e20] [cursor=pointer]: 
+      - generic [ref=f10e22]:
+        - checkbox "Keep me logged in" [ref=f10e23]
+        - generic [ref=f10e24]: Keep me logged in
+      - iframe [ref=f10e29]:
+        - generic [ref=f11e2]:
+          - generic [ref=f11e3]:
+            - checkbox "I'm not a robot" [ref=f11e7]
+            - generic [aria-hidden] [ref=f11e11]: I'm not a robot
+          - generic [ref=f11e12]: reCAPTCHA
+      - button "SIGN IN " [ref=f10e30] [cursor=pointer]:
+        - text: SIGN IN
+        - generic [ref=f10e31]: 
+    - paragraph [ref=f10e33]: © 2026 YES INDIA FOUNDATION. All rights reserved.
+  - generic [ref=f10e36]:
+    - heading "Welcome to YES NATIONAL PUBLIC SCHOOL" [level=2] [ref=f10e37]
+    - paragraph [ref=f10e38]: Join our community of excellence and shape the future of education together.
+    - generic [ref=f10e39]:
+      - paragraph [ref=f10e42]: "\"YES India Makes an Excellent India. We are dedicated to providing holistic, value-based education that empowers the catalysts of the next generation.\""
+      - generic [ref=f10e43]: — YES India Foundation

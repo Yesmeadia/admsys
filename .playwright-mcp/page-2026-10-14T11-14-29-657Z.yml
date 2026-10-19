@@ -1,0 +1,463 @@
+- generic [active] [ref=f127e1]:
+  - navigation [ref=f127e2]:
+    - generic [ref=f127e3]:
+      - link "School Logo YES NATIONAL PUBLIC SCHOOL" [ref=f127e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "School Logo" [ref=f127e5]
+        - generic [ref=f127e6]: YES NATIONAL PUBLIC SCHOOL
+      - list [ref=f127e9]:
+        - listitem [ref=f127e10]:
+          - link "Home" [ref=f127e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=f127e12]:
+          - link "Apply Now" [ref=f127e13] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admission/select-form
+  - main [ref=f127e14]:
+    - generic [ref=f127e15]:
+      - generic [ref=f127e16]:
+        - link [ref=f127e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "School Logo" [ref=f127e18]
+        - heading "Class 11th Registration" [level=1] [ref=f127e19]
+        - paragraph [ref=f127e20]: "Admission Path: Class 11 Only • Session 2026-2027"
+      - generic [ref=f127e21]:
+        - complementary [ref=f127e22]:
+          - navigation [ref=f127e23]:
+            - link " Candidate Identity" [ref=f127e24] [cursor=pointer]:
+              - /url: "#section-identity"
+              - generic [ref=f127e25]: 
+              - text: Candidate Identity
+            - link " Government IDs" [ref=f127e26] [cursor=pointer]:
+              - /url: "#section-official"
+              - generic [ref=f127e27]: 
+              - text: Government IDs
+            - link " Parental Data" [ref=f127e28] [cursor=pointer]:
+              - /url: "#section-parents"
+              - generic [ref=f127e29]: 
+              - text: Parental Data
+            - link " Communications" [ref=f127e30] [cursor=pointer]:
+              - /url: "#section-contact"
+              - generic [ref=f127e31]: 
+              - text: Communications
+            - link " Stream & Subjects" [ref=f127e32] [cursor=pointer]:
+              - /url: "#section-stream"
+              - generic [ref=f127e33]: 
+              - text: Stream & Subjects
+            - link " Academic Level" [ref=f127e34] [cursor=pointer]:
+              - /url: "#section-academic"
+              - generic [ref=f127e35]: 
+              - text: Academic Level
+            - link " Rules & Regulations" [ref=f127e36] [cursor=pointer]:
+              - /url: "#section-rules"
+              - generic [ref=f127e37]: 
+              - text: Rules & Regulations
+            - link " Documents Enclosure" [ref=f127e38] [cursor=pointer]:
+              - /url: "#section-declaration"
+              - generic [ref=f127e39]: 
+              - text: Documents Enclosure
+          - paragraph [ref=f127e41]:
+            - generic [ref=f127e42]: 
+            - generic [ref=f127e43]: End-to-end encrypted secure institutional transmission.
+        - main [ref=f127e44]:
+          - generic [ref=f127e45]:
+            - generic [ref=f127e46]:
+              - generic [ref=f127e47]:
+                - generic [ref=f127e48]: 
+                - heading "Candidate Identity" [level=4] [ref=f127e50]
+              - generic [ref=f127e51]:
+                - generic "Click to upload candidate photo" [ref=f127e53] [cursor=pointer]:
+                  - generic [ref=f127e54]: 
+                  - paragraph [ref=f127e55]: UPLOAD PHOTO
+                - generic [ref=f127e57]:
+                  - generic [ref=f127e58]:
+                    - generic [ref=f127e59]: Name *
+                    - generic [ref=f127e60]:
+                      - generic [ref=f127e61]: 
+                      - textbox "Candidate First Name" [ref=f127e63]
+                  - generic [ref=f127e64]:
+                    - generic [ref=f127e65]: Surname
+                    - generic [ref=f127e66]:
+                      - generic [ref=f127e67]: 
+                      - textbox "Surname" [ref=f127e69]
+                - generic [ref=f127e70]:
+                  - generic [ref=f127e71]: Birth Date *
+                  - generic [ref=f127e72]:
+                    - generic [ref=f127e73]: 
+                    - textbox [ref=f127e75]
+                - generic [ref=f127e76]:
+                  - generic [ref=f127e77]: DOB In Words *
+                  - generic [ref=f127e78]:
+                    - generic [ref=f127e79]: 
+                    - textbox "Calculated automatically" [ref=f127e81]
+                - generic [ref=f127e82]:
+                  - generic [ref=f127e83]: Gender *
+                  - generic [ref=f127e84]:
+                    - combobox [ref=f127e85]:
+                      - option "Select Gender" [selected]
+                      - option "Male"
+                      - option "Female"
+                    - generic: 
+                - generic [ref=f127e86]:
+                  - generic [ref=f127e87]: Place of Birth *
+                  - generic [ref=f127e88]:
+                    - generic [ref=f127e89]: 
+                    - textbox "City / Town" [ref=f127e91]
+                - generic [ref=f127e92]:
+                  - generic [ref=f127e93]: Mother Tongue *
+                  - generic [ref=f127e94]:
+                    - generic [ref=f127e95]: 
+                    - textbox "Mother Tongue" [ref=f127e97]
+                - generic [ref=f127e98]:
+                  - generic [ref=f127e99]: Religion *
+                  - generic [ref=f127e100]:
+                    - generic [ref=f127e101]: 
+                    - textbox "Religion" [ref=f127e103]
+                - generic [ref=f127e104]:
+                  - generic [ref=f127e105]: Caste & Category *
+                  - generic [ref=f127e106]:
+                    - generic [ref=f127e107]: 
+                    - textbox "Caste & Category" [ref=f127e109]
+                - generic [ref=f127e110]:
+                  - generic [ref=f127e111]: Nationality *
+                  - generic [ref=f127e112]:
+                    - generic [ref=f127e113]: 
+                    - textbox "Nationality" [ref=f127e115]: INDIAN
+                - generic [ref=f127e116]:
+                  - generic [ref=f127e117]: Blood Group
+                  - generic [ref=f127e118]:
+                    - combobox [ref=f127e119]:
+                      - option "Select Blood Group" [selected]
+                      - option "A+"
+                      - option "A-"
+                      - option "B+"
+                      - option "B-"
+                      - option "O+"
+                      - option "O-"
+                      - option "AB+"
+                      - option "AB-"
+                    - generic: 
+            - generic [ref=f127e120]:
+              - generic [ref=f127e121]:
+                - generic [ref=f127e122]: 
+                - heading "Official Identifiers" [level=4] [ref=f127e124]
+              - generic [ref=f127e125]:
+                - generic [ref=f127e126]:
+                  - generic [ref=f127e127]: Aadhar Identification *
+                  - generic [ref=f127e128]:
+                    - generic [ref=f127e129]: 
+                    - textbox "0000 0000 0000" [ref=f127e131]
+                - generic [ref=f127e132]:
+                  - generic [ref=f127e133]: APAAR ID (If available)
+                  - generic [ref=f127e134]:
+                    - generic [ref=f127e135]: 
+                    - textbox "APAAR Number" [ref=f127e137]
+                - generic [ref=f127e138]:
+                  - generic [ref=f127e139]: PEN Number
+                  - generic [ref=f127e140]:
+                    - generic [ref=f127e141]: "#"
+                    - textbox "Permanent Education Number" [ref=f127e143]
+                - generic [ref=f127e144]:
+                  - generic [ref=f127e145]: Adharshil No
+                  - generic [ref=f127e146]:
+                    - generic [ref=f127e147]: 
+                    - textbox "Adharshil Number" [ref=f127e149]
+            - generic [ref=f127e150]:
+              - generic [ref=f127e151]:
+                - generic [ref=f127e152]: 
+                - heading "Parental Details" [level=4] [ref=f127e154]
+              - generic [ref=f127e155]:
+                - generic [ref=f127e157]:
+                  - generic [ref=f127e158]:
+                    - generic [ref=f127e159]:
+                      - generic [ref=f127e160]: 
+                      - heading "Father's Profile" [level=6] [ref=f127e162]
+                    - generic [ref=f127e163]: Primary
+                  - generic "Click to upload father's photo" [ref=f127e165] [cursor=pointer]:
+                    - generic [ref=f127e166]: 
+                    - paragraph [ref=f127e167]: FATHER PHOTO
+                  - generic [ref=f127e168]:
+                    - generic [ref=f127e169]: Full Name *
+                    - generic [ref=f127e170]:
+                      - generic [ref=f127e171]: 
+                      - textbox "Father's Full Name" [ref=f127e173]
+                  - generic [ref=f127e174]:
+                    - generic [ref=f127e175]: Qualification
+                    - generic [ref=f127e176]:
+                      - generic [ref=f127e177]: 
+                      - textbox "Highest Degree" [ref=f127e179]
+                  - generic [ref=f127e180]:
+                    - generic [ref=f127e181]:
+                      - generic [ref=f127e182]: Occupation
+                      - generic [ref=f127e183]:
+                        - generic [ref=f127e184]: 
+                        - textbox "Profession / Job" [ref=f127e186]
+                    - generic [ref=f127e187]:
+                      - generic [ref=f127e188]: Income
+                      - generic [ref=f127e189]:
+                        - generic [ref=f127e190]: 
+                        - textbox "Annual Income" [ref=f127e192]
+                - generic [ref=f127e194]:
+                  - generic [ref=f127e195]:
+                    - generic [ref=f127e196]:
+                      - generic [ref=f127e197]: 
+                      - heading "Mother's Profile" [level=6] [ref=f127e199]
+                    - generic [ref=f127e200]: Primary
+                  - generic "Click to upload mother's photo" [ref=f127e202] [cursor=pointer]:
+                    - generic [ref=f127e203]: 
+                    - paragraph [ref=f127e204]: MOTHER PHOTO
+                  - generic [ref=f127e205]:
+                    - generic [ref=f127e206]: Full Name *
+                    - generic [ref=f127e207]:
+                      - generic [ref=f127e208]: 
+                      - textbox "Mother's Full Name" [ref=f127e210]
+                  - generic [ref=f127e211]:
+                    - generic [ref=f127e212]: Qualification
+                    - generic [ref=f127e213]:
+                      - generic [ref=f127e214]: 
+                      - textbox "Highest Degree" [ref=f127e216]
+                  - generic [ref=f127e217]:
+                    - generic [ref=f127e218]:
+                      - generic [ref=f127e219]: Occupation
+                      - generic [ref=f127e220]:
+                        - generic [ref=f127e221]: 
+                        - textbox "Profession / Homemaker" [ref=f127e223]
+                    - generic [ref=f127e224]:
+                      - generic [ref=f127e225]: Income
+                      - generic [ref=f127e226]:
+                        - generic [ref=f127e227]: 
+                        - textbox "Annual Income" [ref=f127e229]
+            - generic [ref=f127e230]:
+              - generic [ref=f127e231]:
+                - generic [ref=f127e232]: 
+                - heading "Communication Details" [level=4] [ref=f127e234]
+              - generic [ref=f127e235]:
+                - generic [ref=f127e236]:
+                  - generic [ref=f127e237]: Guardian Name *
+                  - generic [ref=f127e238]:
+                    - generic [ref=f127e239]: 
+                    - textbox "Full Name of Guardian / Parent" [ref=f127e241]
+                - generic [ref=f127e243]:
+                  - generic [ref=f127e244]:
+                    - generic [ref=f127e245]: 
+                    - text: Residential Address (Current) *
+                  - textbox "Complete residential address with landmark and PIN code..." [ref=f127e246]
+                - generic [ref=f127e248]:
+                  - generic [ref=f127e249]:
+                    - generic [ref=f127e250]:
+                      - generic [ref=f127e251]: 
+                      - text: Permanent Address *
+                    - generic [ref=f127e252] [cursor=pointer]:
+                      - checkbox " SAME AS CURRENT" [ref=f127e253]
+                      - generic [ref=f127e254]:
+                        - generic [ref=f127e255]: 
+                        - text: SAME AS CURRENT
+                  - textbox "Permanent address as per records..." [ref=f127e256]
+                - generic [ref=f127e257]:
+                  - generic [ref=f127e258]: Primary Mobile *
+                  - generic [ref=f127e259]:
+                    - generic [ref=f127e260]: 
+                    - textbox "10-digit number" [ref=f127e262]
+                - generic [ref=f127e263]:
+                  - generic [ref=f127e264]: Secondary Mobile
+                  - generic [ref=f127e265]:
+                    - generic [ref=f127e266]: 
+                    - textbox "Alternate contact" [ref=f127e268]
+                - generic [ref=f127e269]:
+                  - generic [ref=f127e270]: Email Address
+                  - generic [ref=f127e271]:
+                    - generic [ref=f127e272]: "@"
+                    - textbox "example@domain.com" [ref=f127e274]
+            - generic [ref=f127e275]:
+              - generic [ref=f127e276]:
+                - generic [ref=f127e277]: 
+                - heading "Stream Selection" [level=4] [ref=f127e279]
+              - generic [ref=f127e280]:
+                - generic [ref=f127e281]: 
+                - paragraph [ref=f127e282]: Choose your preferred academic path. Each stream has fixed core subjects and choice-based combinations.
+              - generic [ref=f127e283]:
+                - generic [ref=f127e285] [cursor=pointer]:
+                  - generic [ref=f127e286]: 
+                  - generic [ref=f127e288]:
+                    - heading "Science Stream" [level=5] [ref=f127e289]
+                    - paragraph [ref=f127e290]: Medical & Engineering Prep
+                  - generic [ref=f127e291]: 
+                - generic [ref=f127e294] [cursor=pointer]:
+                  - generic [ref=f127e295]: 
+                  - generic [ref=f127e297]:
+                    - heading "Arts Stream" [level=5] [ref=f127e298]
+                    - paragraph [ref=f127e299]: Humanities & Liberal Sciences
+                  - generic [ref=f127e300]: 
+              - text:        
+            - generic [ref=f127e302]:
+              - generic [ref=f127e303]:
+                - generic [ref=f127e304]: 
+                - heading "Educational History" [level=4] [ref=f127e306]
+              - generic [ref=f127e307]:
+                - generic [ref=f127e308]:
+                  - generic [ref=f127e309]: Admission Target Grade *
+                  - generic [ref=f127e310]:
+                    - combobox [ref=f127e311]:
+                      - option "Class 11th" [selected]
+                    - generic: 
+                - generic [ref=f127e312]:
+                  - generic [ref=f127e313]: Last School Attended *
+                  - generic [ref=f127e314]:
+                    - generic [ref=f127e315]: 
+                    - textbox "Board School Name, City" [ref=f127e317]
+            - generic [ref=f127e318]:
+              - generic [ref=f127e319]:
+                - generic [ref=f127e320]: 
+                - heading "Admission Rules & Regulations" [level=4] [ref=f127e322]
+              - generic [ref=f127e323]:
+                - generic [ref=f127e324]:
+                  - generic [ref=f127e325]: 
+                  - heading "Institutional Policies & Code of Ethics" [level=6] [ref=f127e327]
+                - generic [ref=f127e328]:
+                  - generic [ref=f127e330]:
+                    - generic [ref=f127e331]:
+                      - generic [ref=f127e332]: 
+                      - generic [ref=f127e333]: Institutional Authority
+                    - paragraph [ref=f127e334]: Head of Institution retains final authority to admit or refuse candidates. Management reserves right to amend provisions.
+                  - generic [ref=f127e336]:
+                    - generic [ref=f127e337]:
+                      - generic [ref=f127e338]: 
+                      - generic [ref=f127e339]: Fee Terms
+                    - paragraph [ref=f127e340]: No fee concessions apply. Fees are strictly non-refundable even upon mid-session withdrawal or admission cancellation.
+                  - generic [ref=f127e342]:
+                    - generic [ref=f127e343]:
+                      - generic [ref=f127e344]: 
+                      - generic [ref=f127e345]: Age Criteria & NEP 2020
+                    - paragraph [ref=f127e346]: Candidate minimum age criteria strictly adheres to National Education Policy (NEP) 2020 and State Board norms.
+                  - generic [ref=f127e348]:
+                    - generic [ref=f127e349]:
+                      - generic [ref=f127e350]: 
+                      - generic [ref=f127e351]: Original Documentation
+                    - paragraph [ref=f127e352]: All verified credentials, Leaving Certificate, and original records must be submitted for final enrollment validation.
+                  - generic [ref=f127e354]:
+                    - generic [ref=f127e355]:
+                      - generic [ref=f127e356]: 
+                      - generic [ref=f127e357]: Health Disclosure
+                    - paragraph [ref=f127e358]: Parents are required to disclose any pre-existing medical or psychological care needs prior to formal admission.
+                  - generic [ref=f127e360]:
+                    - generic [ref=f127e361]:
+                      - generic [ref=f127e362]: 
+                      - generic [ref=f127e363]: Attendance & Leaves
+                    - paragraph [ref=f127e364]: Prior leave applications are mandatory. Unexplained absence over 30 continuous days results in registration removal.
+                  - generic [ref=f127e366]:
+                    - generic [ref=f127e367]:
+                      - generic [ref=f127e368]: 
+                      - generic [ref=f127e369]: Zero-Tolerance Code of Conduct
+                    - paragraph [ref=f127e370]: Zero tolerance for misconduct, bullying, violence, or disrespect. Standard prescribed uniforms and disciplined grooming are mandatory.
+              - generic [ref=f127e371] [cursor=pointer]:
+                - checkbox "I have carefully read, understood, and solemnly agree to abide by all the Admission Rules, Regulations & Institutional Policies of YES NATIONAL PUBLIC SCHOOL. I certify that the information entered is authentic and accurate to the best of my knowledge." [ref=f127e373]
+                - generic [ref=f127e374]:
+                  - text: I have carefully read, understood, and solemnly agree to abide by all the
+                  - strong [ref=f127e375]: Admission Rules, Regulations & Institutional Policies
+                  - text: of YES NATIONAL PUBLIC SCHOOL. I certify that the information entered is authentic and accurate to the best of my knowledge.
+            - generic [ref=f127e376]:
+              - generic [ref=f127e377]:
+                - generic [ref=f127e378]: 
+                - heading "Documents Enclosure" [level=4] [ref=f127e380]
+              - generic [ref=f127e381]:
+                - generic [ref=f127e382]:
+                  - generic [ref=f127e383]: 
+                  - heading "Required Documents Checklist (Bring at Verification)" [level=6] [ref=f127e384]
+                - generic [ref=f127e385]:
+                  - generic [ref=f127e387]:
+                    - generic [ref=f127e388]: 
+                    - generic [ref=f127e389]: Student Aadhar card copy
+                  - generic [ref=f127e391]:
+                    - generic [ref=f127e392]: 
+                    - generic [ref=f127e393]: Transfer Certificate (LC)
+                  - generic [ref=f127e395]:
+                    - generic [ref=f127e396]: 
+                    - generic [ref=f127e397]: Parent Aadhar Card
+                  - generic [ref=f127e399]:
+                    - generic [ref=f127e400]: 
+                    - generic [ref=f127e401]: Passport Size Photographs
+                  - generic [ref=f127e403]:
+                    - generic [ref=f127e404]: 
+                    - generic [ref=f127e405]: Previous Standard Marklist
+                  - generic [ref=f127e407]:
+                    - generic [ref=f127e408]: 
+                    - generic [ref=f127e409]: Original Certificate of Board Exam
+                  - generic [ref=f127e411]:
+                    - generic [ref=f127e412]: 
+                    - generic [ref=f127e413]: Reservation / Caste Certificate (if applicable)
+              - iframe [ref=f127e418]:
+                - generic [ref=f128e2]:
+                  - generic [ref=f128e3]:
+                    - checkbox "I'm not a robot" [ref=f128e7]
+                    - generic [aria-hidden] [ref=f128e11]: I'm not a robot
+                  - generic [ref=f128e12]: reCAPTCHA
+              - button "SUBMIT APPLICATION " [ref=f127e420] [cursor=pointer]:
+                - generic [ref=f127e421]: SUBMIT APPLICATION
+                - generic [ref=f127e422]: 
+            - text: n>
+  - contentinfo [ref=f127e423]:
+    - generic [ref=f127e425]:
+      - generic [ref=f127e427]:
+        - img "School Logo" [ref=f127e428]
+        - paragraph [ref=f127e429]: Revolutionizing education through innovation and character building. YES NATIONAL PUBLIC SCHOOL is proud to be part of the YES INDIA FOUNDATION, a Kerala-based academic council dedicated to excellence.
+        - generic [ref=f127e430]:
+          - link "Facebook" [ref=f127e431] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f127e434] [cursor=pointer]:
+            - /url: https://www.instagram.com/yes.huh.school?utm_source=qr&igsh=MXh0NzJrcmQzdjJ4OA==
+          - link "Twitter" [ref=f127e437] [cursor=pointer]:
+            - /url: "#"
+          - link "Youtube" [ref=f127e440] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f127e443]:
+        - heading "ADMISSIONS" [level=6] [ref=f127e444]
+        - list [ref=f127e445]:
+          - listitem [ref=f127e446]:
+            - link "Lower Academy" [ref=f127e447] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form1
+          - listitem [ref=f127e448]:
+            - link "General Education" [ref=f127e449] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form2
+          - listitem [ref=f127e450]:
+            - link "Higher Secondary" [ref=f127e451] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/form3
+          - listitem [ref=f127e452]:
+            - link "How to Apply" [ref=f127e453] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admission/select-form
+      - generic [ref=f127e454]:
+        - heading "EXPLORE" [level=6] [ref=f127e455]
+        - list [ref=f127e456]:
+          - listitem [ref=f127e457]:
+            - link "Home" [ref=f127e458] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f127e459]:
+            - link "School Gallery" [ref=f127e460] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f127e461]:
+            - link "Academic Calendar" [ref=f127e462] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f127e463]:
+            - link "Help Center" [ref=f127e464] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f127e465]:
+            - link "Privacy Policy" [ref=f127e466] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f127e467]:
+        - heading "GET IN TOUCH" [level=6] [ref=f127e468]
+        - generic [ref=f127e469]:
+          - generic [ref=f127e470]: YES NATIONAL PUBLIC SCHOOL,Mandi, Poonch 185102, Jammu & Kashmir, India
+          - 'link "Principal: 9797524757" [ref=f127e475] [cursor=pointer]':
+            - /url: tel:9797524757
+          - link "nationalpublicschoolmandi@gmail.com" [ref=f127e480] [cursor=pointer]:
+            - /url: mailto:nationalpublicschoolmandi@gmail.com
+        - generic [ref=f127e485]:
+          - generic [ref=f127e486]: School Office Hours
+          - paragraph [ref=f127e487]: "Monday – Saturday: 9:00 AM – 3:00 PMSunday: Closed"
+    - generic [ref=f127e490]:
+      - generic [ref=f127e492]:
+        - generic [ref=f127e493]: © 2026 YES NATIONAL PUBLIC SCHOOL. All rights reserved.
+        - generic [ref=f127e494]: "Visitors: 8"
+      - generic [ref=f127e499]:
+        - generic [ref=f127e500]: Designed & Developed by
+        - link [ref=f127e501] [cursor=pointer]:
+          - /url: https://cyberduce.com
+          - img "Cyberduce Logo" [ref=f127e502]
