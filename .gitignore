@@ -28,7 +28,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-HOSTING_GUIDE.md
+# Documentation & Markdown
+*.md
 # Public Assets
 /public/hot
 /public/storage
