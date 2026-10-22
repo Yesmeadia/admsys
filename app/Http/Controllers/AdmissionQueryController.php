@@ -151,7 +151,20 @@ class AdmissionQueryController extends Controller
 
             // Generate PDF if needed
             try {
-                $pdf = PDF::loadView('admission.pdf', compact('admissionQuery'));
+                $logoPaths = [public_path('images/logo1.png'), public_path('images/logow.png')];
+                $logoPath = null;
+                foreach ($logoPaths as $p) {
+                    if (file_exists($p)) {
+                        $logoPath = $p;
+                        break;
+                    }
+                }
+                $logoBase64 = $logoPath ? 'data:image/png;base64,' . base64_encode(file_get_contents($logoPath)) : null;
+                $pdf = PDF::loadView('admission.pdf', [
+                    'admission' => $admissionQuery,
+                    'admissionQuery' => $admissionQuery,
+                    'logo_base64' => $logoBase64,
+                ]);
 
                 // Send email to user with PDF attachment
                 Mail::send('emails.admission_confirmation', compact('admissionQuery'), function ($message) use ($admissionQuery, $pdf) {
@@ -195,7 +208,20 @@ class AdmissionQueryController extends Controller
     {
         try {
             $admissionQuery = AdmissionQuery::findOrFail($id);
-            $pdf = PDF::loadView('admission.pdf', compact('admissionQuery'));
+            $logoPaths = [public_path('images/logo1.png'), public_path('images/logow.png')];
+            $logoPath = null;
+            foreach ($logoPaths as $p) {
+                if (file_exists($p)) {
+                    $logoPath = $p;
+                    break;
+                }
+            }
+            $logoBase64 = $logoPath ? 'data:image/png;base64,' . base64_encode(file_get_contents($logoPath)) : null;
+            $pdf = PDF::loadView('admission.pdf', [
+                'admission' => $admissionQuery,
+                'admissionQuery' => $admissionQuery,
+                'logo_base64' => $logoBase64,
+            ]);
             return $pdf->download('admission_application_' . $admissionQuery->application_number . '.pdf');
         } catch (\Exception $e) {
             \Log::error('PDF download error: ' . $e->getMessage());

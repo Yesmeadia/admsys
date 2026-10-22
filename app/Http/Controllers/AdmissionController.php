@@ -883,22 +883,23 @@ class AdmissionController extends Controller
             $logoBase64 = null;
             $logoPath = null;
 
-            // Priority 1: storage/public/logo.png (The one verified via curl in production)
-            if (Storage::disk('public')->exists('logo.png')) {
-                $logoData = Storage::disk('public')->get('logo.png');
-                $logoBase64 = 'data:image/png;base64,' . base64_encode($logoData);
-            }
-            // Priority 2: public/images/logo.png (Standard location)
-            elseif (file_exists(public_path('images/logo.png'))) {
-                $logoPath = public_path('images/logo.png');
-            }
-            // Priority 3: public/images/logo1.png (Previously used fallback)
-            elseif (file_exists(public_path('images/logo1.png'))) {
+            // Priority 1: public/images/logo1.png (School Crest / Emblem)
+            if (file_exists(public_path('images/logo1.png'))) {
                 $logoPath = public_path('images/logo1.png');
             }
-            // Priority 4: public/images/logow.png (Used in frontend)
+            // Priority 2: public/images/logow.png
             elseif (file_exists(public_path('images/logow.png'))) {
                 $logoPath = public_path('images/logow.png');
+            }
+            // Priority 3: storage/public/logo1.png
+            elseif (Storage::disk('public')->exists('logo1.png')) {
+                $logoData = Storage::disk('public')->get('logo1.png');
+                $logoBase64 = 'data:image/png;base64,' . base64_encode($logoData);
+            }
+            // Priority 4: storage/public/logow.png
+            elseif (Storage::disk('public')->exists('logow.png')) {
+                $logoData = Storage::disk('public')->get('logow.png');
+                $logoBase64 = 'data:image/png;base64,' . base64_encode($logoData);
             }
 
             if (!$logoBase64 && $logoPath) {
@@ -962,10 +963,17 @@ class AdmissionController extends Controller
                     $motherPhotoMime = mime_content_type($photoFullPath);
                 }
 
-                // Logo handling (Same as downloadPDF)
-                $logoPath = public_path('images/logo1.png');
+                // Logo handling (Same as downloadPDF - prioritizing logo1.png / logow.png)
+                $logoPaths = [public_path('images/logo1.png'), public_path('images/logow.png')];
+                $logoPath = null;
+                foreach ($logoPaths as $p) {
+                    if (file_exists($p)) {
+                        $logoPath = $p;
+                        break;
+                    }
+                }
                 $logoBase64 = null;
-                if (file_exists($logoPath)) {
+                if ($logoPath) {
                     $logoBase64 = 'data:image/png;base64,' . base64_encode(file_get_contents($logoPath));
                 }
 

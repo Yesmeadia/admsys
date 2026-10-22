@@ -410,9 +410,16 @@ class AdminController extends Controller
             $includeRemarks = filter_var($request->input('include_remarks', false), FILTER_VALIDATE_BOOLEAN);
 
             // Prepare PDF Data (Matches AdmissionController@downloadPDF for consistency)
-            $logoPath = public_path('images/logo1.png');
+            $logoPaths = [public_path('images/logo1.png'), public_path('images/logow.png')];
+            $logoPath = null;
+            foreach ($logoPaths as $p) {
+                if (file_exists($p)) {
+                    $logoPath = $p;
+                    break;
+                }
+            }
             $logoBase64 = null;
-            if (file_exists($logoPath)) {
+            if ($logoPath) {
                 $logoBase64 = 'data:image/png;base64,' . base64_encode(file_get_contents($logoPath));
             }
 

@@ -1,3 +1,4 @@
+@php $admission = $admission ?? $admissionQuery ?? null; @endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -308,7 +309,12 @@
                         <img src="{{ $logo_base64 }}" style="height: 80px; width: auto;">
                     @else
                         @php 
-                            $logoPaths = [public_path('images/logo.png'), public_path('images/logo1.png'), public_path('images/logow.png')];
+                            $logoPaths = [
+                                public_path('images/logo1.png'),
+                                public_path('images/logow.png'),
+                                storage_path('app/public/logo1.png'),
+                                storage_path('app/public/logow.png'),
+                            ];
                             $foundPath = null;
                             foreach($logoPaths as $p) { if(file_exists($p)) { $foundPath = $p; break; } }
                         @endphp
